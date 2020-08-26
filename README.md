@@ -1,5 +1,5 @@
 # AST 713 - Astrophysics I (Fall 2020)
-Welcome to the course GitHub repository (repo) for __AST 713__ - __Astrophysics I__, at UNLV.  Here you'll find Jupyter Notebooks (`.ipynb`) that correspond or suppplement in-class lectures.  If you're at all unfamiliar with [GitHub](#GitHub), [Jupyter](#Jupyter) or the [Python](#Python) programming language, please read through the relevant sections below.
+Welcome to the course GitHub repository (repo) for __AST 713__ - __Astrophysics I__, at UNLV.  Here you'll find Jupyter Notebooks (`.ipynb`) that correspond to or suppplement in-class lectures.  If you're not familiar with [GitHub](#GitHub), [Jupyter](#Jupyter) or the [Python](#Python) programming language, please read through the relevant sections below.
 
 
 ## GitHub
@@ -62,4 +62,4 @@ Once you have everything set up and working, please open in Jupyter `Lect1.ipynb
 ## Questions or Issues
 You can post any questions or issues you may have in a [Discussion](https://unlv.instructure.com/courses/76074/discussion_topics) on WebCampus (Canvas), where I or other students can respond with advice or troubleshooting tips.
 
-If you find any technical issues with—or have suggestions (e.g., additional resources) for—this guide, feel free to open a new "issue" by clicking the __Issues__ tab near the top header of this repo (see [Mastering Issues](https://guides.github.com/features/issues/) for more information).
+If you find any technical issues with, or have suggestions (e.g., additional resources) for, this guide, feel free to open a new "issue" by clicking the __Issues__ tab near the top header of this repo (see [Mastering Issues](https://guides.github.com/features/issues/) for more information).
