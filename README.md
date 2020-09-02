@@ -5,9 +5,21 @@ Welcome to the course GitHub repository (repo) for __AST 713__ - __Astrophysics 
 ## GitHub
 1. First, create a GitHub account if you don't already have one at https://github.com/join.
 2. Once you're logged in, "fork" our class repo by clicking the __Fork__ button in the header (usually upper-right) of [this page](https://github.com/zhuzh1983/2020-AstrophysicsI).  Your fork is where you can make changes or upload ("commit") homework and other assignemnts.  For more information, see [Forking Projects](https://guides.github.com/activities/forking/).
-3. If you're on a Mac or Windows machine, and are new to the _Git_ version-control system, we recommend using __[GitHub Desktop](https://desktop.github.com/)__ to "clone" your forked repo to your local machine and upload homework assignments.  For more information, see [Installing and configuring GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop).
+3. If you're on a Mac or Windows machine, and are new to the _Git_ version-control system, we recommend using [GitHub Desktop](https://desktop.github.com/) to "clone" your forked repo to your local machine and upload homework assignments.  For more information on this application, see [Installing and configuring GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop).  For more information on "cloning," see the [relevant subsection below](#Clo__[GitHub Desktop](https://desktop.github.com/)__ning).
 4. To see how and why GitHub and Git are used to develop code and online OpenCourseWare, visit [Understanding the GitHub flow](https://guides.github.com/introduction/flow/).
-5. For more information about GitHub, including how to ceate your own repository and comit changes, see the 10-minute [Hello World](https://guides.github.com/activities/hello-world/) guide.
+5. For more information about GitHub, including how to ceate your own repository and commit changes, see the 10-minute [Hello World](https://guides.github.com/activities/hello-world/) guide.
+
+### Cloning
+When you "clone" using _Git_ (e.g., this repo, or your own fork), you create a local, asynchronous copy of a GitHub repo on your machine that you can modify: add, edit, or remove files.  These local modifications can then be "staged" as individual "commits," and later "pushed" (written) to the remote ("upstream") source from which the clone was made, provided you have the necessary write permissions (this is always the case for your own forks).
+
+As recommended above, [GitHub Desktop](https://desktop.github.com/) provides an easy-to-use, graphical interface for the vast majority of common _Git_ commands and tasks, including cloning (e.g., `git clone`); see [Cloning and forking repositories from GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop) for more information.
+
+Alternatively, if you have `git` installed, via the command line interface (CLI) or terminal, you can clone your fork of this repo to your current local directory (see [`pwd`](https://en.wikipedia.org/wiki/Pwd)) using,
+```bash
+$ git clone https://github.com/$USER/2020-AstrophysicsI.git
+```
+where `$USER` is your GitHub username.
+
 
 ## Anaconda
 We recommend using __Anaconda__ to manage your Python environments and to install JupyterLab.  Anaconda is one of the most widely used solutions for package management for Python and comes with 1,500+ popular packages out of the box, including the most common ones we will use in this course.  Below are instructions or external resources for setting up Anaconda depending on your operating system.
@@ -57,6 +69,13 @@ Once you have everything set up and working, please open in Jupyter `Lect1.ipynb
 
 ### Additional resources
 - "Learn the Basics" section at https://www.learnpython.org/
+
+## Assignments
+You will be expected to upload your assignments (e.g., homework, group projects, etc.) by "pushing" your local commits to your fork.  Again, if you are using Windows of Mac, we recommend using [GitHub Desktop](https://desktop.github.com/) to visually simplify this process, while avoiding common issues and mistakes in the command line.  One added benefit of the graphical user interface (GUI) over the CLI of Git is the ability to preview an "inline diff" (line-by-line changes to a modified—i.e., existing—file) before making a commit.
+
+For more information on these procedures, using GitHub Desktop, see the following guides:
+- [Committing and reviewing changes to your project](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project)
+- [Pushing changes to GitHub](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/pushing-changes-to-github)
 
 
 ## Questions or Issues
