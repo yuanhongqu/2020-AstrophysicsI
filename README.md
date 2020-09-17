@@ -22,9 +22,10 @@ where `$USER` is your GitHub username.
 
 ### Syncing your branch
 Whenever new commits (e.g., additional lecture notebooks) are added to this class repo (i.e., the `upstream/master` relative to your fork), using GitHub Desktop you can __re-sync__ your fork as follows:
-1. From the top menu bar, click __Branch__>__Merge into current branch...__ (`Ctrl+Shift+M`)
-2. Under the section __Other branches__, select "upstream/master" and click the button at the bottom "Merge __upstream/master__ into __master__".
-3. For more information, or if you run into any issues (e.g., there are "merge conflicts"), see [Merging another branch into your project branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch).
+1. Below the top menu bar, click the __Fetch origin__ button; this will check for any recent changes made to this `upstream` repo.
+2. From the top menu bar, click __Branch__>__Merge into current branch...__ (`Ctrl+Shift+M`)
+3. Under the section __Other branches__, select "upstream/master" and click the button at the bottom "Merge __upstream/master__ into __master__".
+4. For more information, or if you run into any issues (e.g., there are "merge conflicts"), see [Merging another branch into your project branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch).
 
 
 ## Anaconda
