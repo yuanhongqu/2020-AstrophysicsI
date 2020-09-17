@@ -20,6 +20,12 @@ $ git clone https://github.com/$USER/2020-AstrophysicsI.git
 ```
 where `$USER` is your GitHub username.
 
+### Syncing your branch
+Whenever new commits (e.g., additional lecture notebooks) are added to this class repo (i.e., the `upstream/master` relative to your fork), using GitHub Desktop you can __re-sync__ your fork as follows:
+1. From the top menu bar, click __Branch__>__Merge into current branch...__ (`Ctrl+Shift+M`)
+2. Under the section __Other branches__, select "upstream/master" and click the button at the bottom "Merge __upstream/master__ into __master__".
+3. For more information, or if you run into any issues (e.g., there are "merge conflicts"), see [Merging another branch into your project branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch).
+
 
 ## Anaconda
 We recommend using __Anaconda__ to manage your Python environments and to install JupyterLab.  Anaconda is one of the most widely used solutions for package management for Python and comes with 1,500+ popular packages out of the box, including the most common ones we will use in this course.  Below are instructions or external resources for setting up Anaconda depending on your operating system.
